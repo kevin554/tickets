@@ -1,0 +1,24 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tefor.tickets.activities.MainActivity">
+
+    <item
+        android:id="@+id/accion_refrescar"
+        android:orderInCategory="99"
+        android:title="@string/refrescar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh_white_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/accion_acerca"
+        android:orderInCategory="101"
+        android:title="@string/acerca_de_la_aplicacion"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tickets</string>
+    <string name="tu_nombre_hint">tu nombre</string>
+    <string name="tu_fecha_de_nacimiento_hint">tu fecha de nacimiento</string>
+    <string name="sexo">Sexo:</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="presenta_hemorragias">Presenta hemorragias</string>
+    <string name="esta_consciente">Esta consciente</string>
+    <string name="esta_embarazada">Esta embarazada</string>
+    <string name="registrar">registrar</string>
+    <string name="error_nombre">debe colocar su nombre</string>
+    <string name="error_fecha_nacimiento">debe colocar su fecha de nacimiento</string>
+    <string name="error_sexo">Debe seleccionar un sexo</string>
+    <string name="error_edad">La fecha de nacimiento no tiene el formato correcto</string>
+    <string name="error_embarazo">Solo las mujeres pueden estar embarazadas</string>
+    <string name="ticket_correcto">Tu ticket se agrego con exito</string>
+    <string name="ticket_incorrecto">Hubo un error al registrar tu ticket</string>
+    <string name="error_obtener_datos">Hubo un error al obtener la lista de pacientes</string>
+    <string name="notificacion_masculino">%1$s es tu turno de ser atendido</string>
+    <string name="notificacion_femenino">%1$s es tu turno de ser atendida</string>
+    <string name="error_carga_notificacion">Hubo un error al cargar la notificacion</string>
+    <string name="pedir_ticket">Pedir Ticket</string>
+    <string name="ticket">Ticket</string>
+    <string name="acerca_de_la_aplicacion">Acerca de la aplicación</string>
+    <string name="refrescar">Refrescar</string>
+    <string name="programado_por">Programado por</string>
+    <string name="nicolas_duran">Nicolas Duran</string>
+</resources>

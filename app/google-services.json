@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "18134325571",
+    "firebase_url": "https://notificaciones-android-86eb4.firebaseio.com",
+    "project_id": "notificaciones-android-86eb4",
+    "storage_bucket": "notificaciones-android-86eb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18134325571:android:7f7a92c657e68f37",
+        "android_client_info": {
+          "package_name": "tefor.tickets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18134325571-stmmfcgutdp2vhu3ga8ueq3p4ngudpek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tefor.tickets",
+            "certificate_hash": "1c1b923916c84c37dead4c2096b1163cf3095e52"
+          }
+        },
+        {
+          "client_id": "18134325571-1kpm7fg4ddrqkvrtuit2c7vkok3cdbpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBZThi0QqS-sLtI4RrYbM-sNlwYYZP0ho"
+
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18134325571-1kpm7fg4ddrqkvrtuit2c7vkok3cdbpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margen_registrar_paciente">16dp</dimen>
+    <dimen name="margen_checkbox">8dp</dimen>
+</resources>

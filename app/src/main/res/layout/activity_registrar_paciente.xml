@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tefor.tickets.activities.RegistrarPaciente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoConverter"
+    android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_registrar_paciente">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/activityRegistrarPaciente_nombreTextInputEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="@string/tu_nombre_hint"
+                        android:textSize="20sp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_registrar_paciente">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/activityRegistrarPaciente_fechaNacimientoTextInputEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/tu_fecha_de_nacimiento_hint"
+                        android:textSize="20sp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/activityRegistrarPaciente_fechaNacimientoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/boton"
+                    style="?android:borderlessButtonStyle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_registrar_paciente"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sexo"
+                    android:textSize="18sp"
+                    android:textColor="@color/celesteOscuro"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/activityRegistrarPaciente_hombreRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hombre"
+                        android:textSize="16sp"
+                        android:textColor="@color/celeste"/>
+
+                    <RadioButton
+                        android:id="@+id/activityRegistrarPaciente_mujerRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mujer"
+                        android:textSize="16sp"
+                        android:textColor="@color/celeste"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_checkbox"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/activityRegistrarPaciente_hemorragiaCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/presenta_hemorragias"
+                    android:textSize="16sp"
+                    android:textColor="@color/celesteOscuro"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_checkbox"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/activityRegistrarPaciente_embarazadaCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/esta_embarazada"
+                    android:textSize="16sp"
+                    android:textColor="@color/celesteOscuro"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_checkbox"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/activityRegistrarPaciente_conscienteCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/esta_consciente"
+                    android:textSize="16sp"
+                    android:textColor="@color/celesteOscuro"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margen_registrar_paciente"
+                android:gravity="center|bottom">
+
+                <Button
+                    android:id="@+id/activityRegistrarPaciente_registrarButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registrar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

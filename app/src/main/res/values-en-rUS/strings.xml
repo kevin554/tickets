@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tickets</string>
+    <string name="tu_nombre_hint">your name</string>
+    <string name="tu_fecha_de_nacimiento_hint">your birth date</string>
+    <string name="sexo">Sex:</string>
+    <string name="hombre">Man</string>
+    <string name="mujer">Woman</string>
+    <string name="presenta_hemorragias">Is bleeding</string>
+    <string name="esta_consciente">Is conscious</string>
+    <string name="esta_embarazada">Is pregnant</string>
+    <string name="registrar">register</string>
+    <string name="error_nombre">you must put your name</string>
+    <string name="error_fecha_nacimiento">you must put your birth date</string>
+    <string name="error_sexo">you must put your sex</string>
+    <string name="error_edad">the birth date hasn\'t the correct format</string>
+    <string name="error_embarazo">only the woman can be pregnant</string>
+    <string name="ticket_correcto">your ticket was added succesfully</string>
+    <string name="ticket_incorrecto">There was an error adding your ticket</string>
+    <string name="error_obtener_datos">There was an error getting the list of pacients</string>
+    <string name="notificacion_masculino">%1$s is your turn to be attended</string>
+    <string name="notificacion_femenino">%1$s is your turn to be attended</string>
+    <string name="error_carga_notificacion">There was an error loading the notification</string>
+    <string name="pedir_ticket">Ask for a ticket</string>
+    <string name="ticket">Ticket</string>
+    <string name="acerca_de_la_aplicacion">About the Application</string>
+    <string name="refrescar">Refresh</string>
+    <string name="programado_por">Programed by</string>
+    <string name="nicolas_duran">Nicolas Duran</string>
+</resources>
